@@ -6,6 +6,5 @@ pub fn factorial(n: u32) -> u32 {
     if n == 0 {
         return 1;
     }
-    println!("Lund lele!");
     return n * factorial(n - 1);
 }

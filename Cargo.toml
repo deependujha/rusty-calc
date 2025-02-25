@@ -1,6 +1,6 @@
 [package]
 name = "rustycalc"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Deependu Jha <deependujha21@gmail.com>"]
 license = "MIT"
