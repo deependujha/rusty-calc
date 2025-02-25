@@ -29,5 +29,5 @@ jobs:
       - name: Build & Publish
         run: |
           uv sync --all-extras
-          uv build
+          uv build --sdist
           uv publish
