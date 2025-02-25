@@ -18,7 +18,7 @@ jobs:
     - name: Install UV & rust
       run: |
         curl -LsSf https://astral.sh/uv/install.sh | sh
-        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -y
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     - uses: actions/checkout@v4
     - name: Build
       run: |
