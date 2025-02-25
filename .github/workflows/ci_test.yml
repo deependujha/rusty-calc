@@ -23,7 +23,7 @@ jobs:
     - name: Build
       run: |
         uv sync
-        uv build
+        uv build --all-groups
         pip install -e .
     - name: Run tests
       run: pytest
