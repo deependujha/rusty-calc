@@ -1,12 +1,12 @@
 [project]
 name = "rustycalc"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "Deependu Jha", email = "deependujha21@gmail.com" }
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.8"
 dependencies = [
     "maturin>=1.8.2",
 ]
