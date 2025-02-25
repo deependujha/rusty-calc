@@ -23,6 +23,7 @@ jobs:
     - name: Build
       run: |
         uv sync
-        maturin develop --release
+        uv build
+        pip install -e .
     - name: Run tests
       run: pytest
