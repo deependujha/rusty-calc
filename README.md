@@ -30,6 +30,18 @@ pip install -e .
 
 ---
 
+## Install from `PyPi`
+
+- [RustyCalc on PyPi](https://pypi.org/project/rustycalc)
+
+- Make sure you've `cargo` installed.
+
+```bash
+pip install -U rustycalc
+```
+
+---
+
 ## Usage
 
 ```python
