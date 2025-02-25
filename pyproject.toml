@@ -1,0 +1,23 @@
+[project]
+name = "rustycalc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Deependu Jha", email = "deependujha21@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[tool.maturin]
+module-name = "rustycalc._core"
+python-packages = ["rustycalc"]
+python-source = "src"
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
