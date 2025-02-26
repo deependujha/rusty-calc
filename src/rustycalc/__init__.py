@@ -14,4 +14,4 @@ __all__ = [
 ]
 
 def goal():
-    print("work hard, party harder, fuck much harder.")
+    print("work hard, party harder.")
